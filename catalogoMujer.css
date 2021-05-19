@@ -1,0 +1,195 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+header{
+    height: 65px;
+    background: #fff;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    margin-left: 1rem;
+    line-height: 65px;
+}
+
+.logo a{
+    text-decoration: none;
+    color: #000;
+}
+
+.menu{
+    line-height: 65px;
+    margin-right: 0.5rem;
+    color: #000;
+}
+
+.menu ul{
+    display: flex;
+    list-style: none;
+}
+
+.menu a{
+    margin: 0 1rem;
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+.menu h3{
+    font-size: 1rem;
+}
+
+.menu ul li ul{
+    background-color: #fff;
+    display: none;
+    position: absolute;
+    z-index: 1;
+    top: 2.6rem;
+}
+
+.menu li:hover >ul{
+    display:block;
+}
+
+/*--PORTADA--*/
+.portada{
+    display: inline-block;
+    background-color: #db3c04;
+    position: relative;
+    width: 100%;
+    height: 67.5vh;
+}
+
+.img{
+    position: absolute;
+    width: 50%;
+}
+
+.imgText{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: #fff;
+}
+
+.imgText a{
+    text-decoration: none;
+    color: black;
+}
+
+/*  MENU*/
+
+.Hombre{
+    margin: 1rem 0;
+    text-align: center;  
+}
+
+.menuHombre ul{
+    display: flex;
+    justify-content: center;
+    background-color: #efefef;
+}
+
+.menuHombre ul li{
+    margin: 1rem;
+    list-style: none;
+}
+
+/* CATEGORIAS */
+
+.contenedorCategorias ul{
+    display: flex;
+    justify-content: center;
+}
+
+.contenedorCategorias ul li{
+    list-style: none;
+    margin: 1rem;
+}
+
+.imgCategorias{
+    width: 300px;
+    object-fit: cover;
+}
+
+/* SUSCRIPCION */
+
+.suscripcion{
+    height: 8rem;
+    background-color: yellow;
+    position: relative;
+}
+
+.supH2{
+    padding-top: 2rem;
+    margin-left: 20rem;
+}
+
+.supA{
+    position: absolute;
+    left: 60%;
+    top: 50%;
+}
+
+.supA a{
+    text-decoration: none;
+    color: #fff;
+    background-color: black;
+    padding: 1rem 2rem;
+
+}
+
+/* FOOTER  */
+
+footer{
+    margin-top: 1.5rem;
+    background-color:#6d6d6d;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.footerText{
+    padding: 1rem;
+    color: #fff;
+}
+
+.footerText i{
+    margin-top: 1rem;
+}
+
+.footerText h3{
+    font-size: 13px;
+    font-weight: lighter;
+    margin: 1rem 0;
+}
+
+.footerText ul{
+    list-style: none;
+}
+
+.footerTextI{
+    display: flex;
+}
+
+.footerTextI h3{
+    margin-left: 1rem;
+}
+
+.footerIcon{
+    font-size: 2rem;
+}
+
+.footerIcon ul{
+    list-style: none;
+    display: flex;
+}
+
+.footerIcon ul li{
+    margin: 1rem;
+}
